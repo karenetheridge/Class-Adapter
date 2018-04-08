@@ -13,7 +13,7 @@ creating any sort of class or object that follows the I<Adapter> pattern.
 The term I<Adapter> refers to a I<"Design Pattern"> of the same name,
 from the famous I<"Gang of Four"> book I<"Design Patterns">. Although
 their original implementation was designed for Java and similar
-single-inheritance strictly-typed langauge, the situation for which it
+single-inheritance strictly-typed language, the situation for which it
 applies is still valid.
 
 An I<Adapter> in this Perl sense of the term is when a class is created
@@ -104,7 +104,7 @@ sub new {
 
 The C<_OBJECT_> method is provided primarily as a convenience, and a tool
 for people implementing sub-classes, and allows the C<Class::Adapter>
-interface to provide a guarenteed correct way of getting to the underlying
+interface to provide a guaranteed correct way of getting to the underlying
 object, should you need to do so.
 
 =cut
