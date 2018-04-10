@@ -69,7 +69,7 @@ use Scalar::Util 1.10 ();
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '1.08';
+	$VERSION = '1.09';
 }
 
 
