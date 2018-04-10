@@ -1,6 +1,6 @@
 Revision history for Perl extension Class-Adapter
 
-{{$NEXT}}
+1.09      2018-04-10 05:27:07Z
         - switch packaging to Dist::Zilla (resolves RT#121115)
 
 1.08      2011-03-24
