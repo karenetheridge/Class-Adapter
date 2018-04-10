@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Class-Adapter-*/
+/Class-Adapter-*.tar.gz

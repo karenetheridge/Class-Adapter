@@ -1,5 +1,8 @@
 Revision history for Perl extension Class-Adapter
 
+{{$NEXT}}
+        - switch packaging to Dist::Zilla (resolves RT#121115)
+
 1.08      2011-03-24
 	- Upgrading to Module::Install 1.00
 	- Fixed #56492: [PATCH] Fix spelling error

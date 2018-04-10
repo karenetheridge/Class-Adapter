@@ -1,10 +1,7 @@
 package Class::Adapter;
+# ABSTRACT: Perl implementation of the "Adapter" Design Pattern
 
 =pod
-
-=head1 NAME
-
-Class::Adapter - Perl implementation of the "Adapter" Design Pattern
 
 =head1 DESCRIPTION
 
@@ -67,10 +64,7 @@ use strict;
 use Carp              ();
 use Scalar::Util 1.10 ();
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '1.09';
-}
+our $VERSION = '1.09';
 
 
 
@@ -124,34 +118,12 @@ sub _OBJECT_ {
 
 =pod
 
-=head1 SUPPORT
-
-Bugs should be reported via the CPAN bug tracker at
-
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Class-Adapter>
-
-For other issues, contact the author.
-
 =head1 TO DO
 
 - Write more comprehensive tests
 
-=head1 AUTHOR
-
-Adam Kennedy E<lt>adamk@cpan.orgE<gt>
-
 =head1 SEE ALSO
 
 L<Class::Adapter::Clear>, L<Class::Adapter::Builder>, L<Class::Decorator>
-
-=head1 COPYRIGHT
-
-Copyright 2005 - 2011 Adam Kennedy.
-
-This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
 
 =cut

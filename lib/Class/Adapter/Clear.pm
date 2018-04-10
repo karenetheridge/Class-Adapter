@@ -1,10 +1,7 @@
 package Class::Adapter::Clear;
+# ABSTRACT: A handy base Adapter class that makes no changes
 
 =pod
-
-=head1 NAME
-
-Class::Adapter::Clear - A handy base Adapter class that makes no changes
 
 =head1 SYNOPSIS
 
@@ -137,39 +134,14 @@ use Class::Adapter::Builder
 	ISA      => '_OBJECT_',
 	AUTOLOAD => 1;
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '1.09';
-}
+our $VERSION = '1.09';
 
 1;
 
 =pod
 
-=head1 SUPPORT
-
-Bugs should be reported via the CPAN bug tracker at
-
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Class-Adapter>
-
-For other issues, contact the author.
-
-=head1 AUTHOR
-
-Adam Kennedy E<lt>adamk@cpan.orgE<gt>
-
 =head1 SEE ALSO
 
 L<Class::Adapter>, L<Class::Adapter::Builder>
-
-=head1 COPYRIGHT
-
-Copyright 2005 - 2011 Adam Kennedy.
-
-This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
 
 =cut
