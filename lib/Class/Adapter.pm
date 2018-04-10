@@ -64,7 +64,7 @@ use strict;
 use Carp              ();
 use Scalar::Util 1.10 ();
 
-our $VERSION = '1.09';
+our $VERSION = '1.10';
 
 
 
